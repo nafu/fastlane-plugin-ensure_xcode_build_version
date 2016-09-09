@@ -12,9 +12,9 @@ fastlane add_plugin ensure_xcode_build_version
 
 ## About ensure_xcode_build_version
 
-Ensure Xcode Build Version for working with Beta, GM and Release
+Ensure the selected Xcode Build version with xcode-select matches a value.
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+If building your app requires a specific version of Xcode, you can invoke this command before using gym. For example, to ensure that a beta version is not accidentally selected to build, which would make uploading to TestFlight fail."
 
 ## Example
 
