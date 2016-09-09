@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = %q{nakamurafumiya003@gmail.com}
 
   spec.summary       = %q{Ensure Xcode Build Version for working with Beta, GM and Release}
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-ensure_xcode_build_version"
+  spec.homepage      = "https://github.com/nafu/fastlane-plugin-ensure_xcode_build_version"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
