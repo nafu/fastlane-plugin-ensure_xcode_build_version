@@ -7,7 +7,7 @@
 [![Code Climate](https://codeclimate.com/github/nafu/fastlane-plugin-ensure_xcode_build_version/badges/gpa.svg)](https://codeclimate.com/github/nafu/fastlane-plugin-ensure_xcode_build_version)
 [![Coverage Status](https://coveralls.io/repos/github/nafu/fastlane-plugin-ensure_xcode_build_version/badge.svg?branch=master)](https://coveralls.io/github/nafu/fastlane-plugin-ensure_xcode_build_version?branch=master)
 [![Dependency Status](https://gemnasium.com/badges/github.com/nafu/fastlane-plugin-ensure_xcode_build_version.svg)](https://gemnasium.com/github.com/nafu/fastlane-plugin-ensure_xcode_build_version)
-[![Inline docs](http://inch-ci.org/github/nafu/fastlane-plugin-update_xcodeproj.svg?branch=master)](http://inch-ci.org/github/nafu/fastlane-plugin-update_xcodeproj)
+[![Inline docs](http://inch-ci.org/github/nafu/fastlane-plugin-ensure_xcode_build_version.svg?branch=master)](http://inch-ci.org/github/nafu/fastlane-plugin-ensure_xcode_build_version)
 
 ## Getting Started
 
