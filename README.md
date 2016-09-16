@@ -23,6 +23,11 @@ Ensure the selected Xcode Build version with xcode-select matches a value.
 
 If building your app requires a specific version of Xcode, you can invoke this command before using gym. For example, to ensure that a beta version is not accidentally selected to build, which would make uploading to TestFlight fail."
 
+```ruby
+# If you want to make sure that you use Xcode 8 GM
+ensure_xcode_build_version(build_version: "8A218a")
+```
+
 ## Example
 
 Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`. 
