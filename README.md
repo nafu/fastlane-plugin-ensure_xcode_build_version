@@ -2,6 +2,13 @@
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-ensure_xcode_build_version)
 
+[![Gem Version](https://badge.fury.io/rb/fastlane-plugin-ensure_xcode_build_version.svg)](https://badge.fury.io/rb/fastlane-plugin-ensure_xcode_build_version)
+[![CircleCI](https://circleci.com/gh/nafu/fastlane-plugin-ensure_xcode_build_version.svg?style=svg)](https://circleci.com/gh/nafu/fastlane-plugin-ensure_xcode_build_version)
+[![Code Climate](https://codeclimate.com/github/nafu/fastlane-plugin-ensure_xcode_build_version/badges/gpa.svg)](https://codeclimate.com/github/nafu/fastlane-plugin-ensure_xcode_build_version)
+[![Coverage Status](https://coveralls.io/repos/github/nafu/fastlane-plugin-ensure_xcode_build_version/badge.svg?branch=master)](https://coveralls.io/github/nafu/fastlane-plugin-ensure_xcode_build_version?branch=master)
+[![Dependency Status](https://gemnasium.com/badges/github.com/nafu/fastlane-plugin-ensure_xcode_build_version.svg)](https://gemnasium.com/github.com/nafu/fastlane-plugin-ensure_xcode_build_version)
+[![Inline docs](http://inch-ci.org/github/nafu/fastlane-plugin-update_xcodeproj.svg?branch=master)](http://inch-ci.org/github/nafu/fastlane-plugin-update_xcodeproj)
+
 ## Getting Started
 
 This project is a [fastlane](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-ensure_xcode_build_version`, add it to your project by running:
