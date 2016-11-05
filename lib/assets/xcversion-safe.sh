@@ -1,8 +1,10 @@
 # Since Xcode has a dependency to 2 external gems: sqlite and CFPropertyList
 # More information https://github.com/fastlane/fastlane/issues/6495
 # We have to unset those variables for rbenv, rvm and when the user uses bundler
-unset RUBYLIB
-unset RUBYOPT
+# If we unset ruby related path, we got errors:
+# /Users/distiller/ookami-ios/vendor/bundle/ruby/2.3.0/bin/xcversion:22:in `<main>': undefined method `activate_bin_path' for Gem:Module (NoMethodError)
+# unset RUBYLIB
+# unset RUBYOPT
 # If we unset Bundle related path, we got errors:
 # /Users/distiller/ookami-ios/vendor/bundle/ruby/2.3.0/bin/xcversion:22:in `<main>': undefined method `activate_bin_path' for Gem:Module (NoMethodError)
 # unset BUNDLE_BIN_PATH
