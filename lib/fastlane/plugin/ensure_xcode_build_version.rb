@@ -2,6 +2,7 @@ require 'fastlane/plugin/ensure_xcode_build_version/version'
 
 module Fastlane
   module EnsureXcodeBuildVersion
+    ROOT = Pathname.new(File.expand_path('../../../..', __FILE__))
     # Return all .rb files inside the "actions" and "helper" directory
     def self.all_classes
       Dir[File.expand_path('**/{actions,helper}/*.rb', File.dirname(__FILE__))]
