@@ -4,7 +4,7 @@ module Fastlane
       def self.run(params)
         required_build_version = params[:build_version]
 
-        selected_build_version = sh "xcversion selected | tail -1 | xargs echo -n"
+        selected_build_version = sh File.join(Fastlane::EnsureXcodeBuildVersion::ROOT, 'lib', 'assets', 'xcversion-safe.sh')
 
         versions_match = selected_build_version == "Build version #{required_build_version}"
 
