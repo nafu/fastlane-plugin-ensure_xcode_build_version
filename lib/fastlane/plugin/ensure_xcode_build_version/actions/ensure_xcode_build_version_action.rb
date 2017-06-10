@@ -2,13 +2,11 @@ module Fastlane
   module Actions
     class EnsureXcodeBuildVersionAction < Action
       def self.run(params)
+        Actions.verify_gem!('xcode-install')
         required_build_version = params[:build_version]
+        selected_build_version = sh("xcversion selected").match(/Build version (.*)$/)[1]
 
-        selected_build_version = sh File.join(Fastlane::EnsureXcodeBuildVersion::ROOT, 'lib', 'assets', 'xcversion-safe.sh')
-
-        versions_match = selected_build_version == "Build version #{required_build_version}"
-
-        if versions_match
+        if selected_build_version == required_build_version
           UI.success("Selected Xcode Build version is correct: #{selected_build_version}")
         else
           UI.message("Selected Xcode Build version is not correct: #{selected_build_version}. You expected #{required_build_version}.")
