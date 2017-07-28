@@ -1,4 +1,5 @@
 # coding: utf-8
+
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/ensure_xcode_build_version/version'
@@ -6,10 +7,10 @@ require 'fastlane/plugin/ensure_xcode_build_version/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-ensure_xcode_build_version'
   spec.version       = Fastlane::EnsureXcodeBuildVersion::VERSION
-  spec.author        = %q{Fumiya Nakamura}
-  spec.email         = %q{nakamurafumiya003@gmail.com}
+  spec.author        = 'Fumiya Nakamura'
+  spec.email         = 'nakamurafumiya003@gmail.com'
 
-  spec.summary       = %q{Ensure Xcode Build Version for working with Beta, GM and Release}
+  spec.summary       = 'Ensure Xcode Build Version for working with Beta, GM and Release'
   spec.homepage      = "https://github.com/nafu/fastlane-plugin-ensure_xcode_build_version"
   spec.license       = "MIT"
 
