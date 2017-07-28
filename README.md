@@ -26,13 +26,13 @@ If building your app requires a specific version of Xcode, you can invoke this c
 ```ruby
 # If you want to make sure that you use Xcode 8 GM
 ensure_xcode_build_version(build_version: "8A218a")
+# Xcode 9 beta 4
+ensure_xcode_build_version(build_version: "9M189t")
 ```
 
 ## Example
 
 Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`. 
-
-**Note to author:** Please set up a sample project to make it easy for users to explore what your plugin does. Provide everything that is necessary to try out the plugin in this project (including a sample Xcode/Android project if necessary)
 
 ## Run tests for this plugin
 
