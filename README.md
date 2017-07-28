@@ -26,6 +26,8 @@ If building your app requires a specific version of Xcode, you can invoke this c
 ```ruby
 # If you want to make sure that you use Xcode 8 GM
 ensure_xcode_build_version(build_version: "8A218a")
+# Xcode 8.3.3
+ensure_xcode_build_version(build_version: "8E3004b")
 # Xcode 9 beta 4
 ensure_xcode_build_version(build_version: "9M189t")
 ```
