@@ -11,3 +11,7 @@ fastlane/report.xml
 
 # Coveralls
 coverage
+
+# Bundler
+vendor/
+.bundle/
